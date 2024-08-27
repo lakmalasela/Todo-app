@@ -83,7 +83,7 @@ Make sure you have the following installed on your machine:
 
     ```bash
      https://github.com/lakmalasela/Todo-app.git
-    cd front-end
+     cd front-end
     ```
 
 2. Install the dependencies:
