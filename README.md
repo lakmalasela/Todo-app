@@ -1,6 +1,6 @@
 # To-Do List - backend 
 
-This is an Express.js application for server side that provides API endpoints for To-Do List. It uses MongoDB for data storage 
+This is an Express.js application for server side that provides API endpoints for To-Do List. It uses MongoDB for data storage as well as authentication handle in JSON Web Tokens (JWT)
 
 ## Table of Contents
 
@@ -25,14 +25,14 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
     ```bash
-    https://github.com/lakmalasela/currency_exchange.git
+    https://github.com/lakmalasela/Todo-app.git
     cd your-repo-name
     ```
 
 2. Install the dependencies:
 
     ```bash
-    npm install
+    npm install or npm install --force
     ```
 
 ## Running the Application
@@ -53,13 +53,12 @@ Create a `.env` file in the root directory of the project with the following var
 
 PORT = 4000
 
-MONGO_URI =
+MONGO_URI = 
 mongodb+srv://asela:TzJfLeUjVyBaclex@cluster0.9snvyq7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
 ###########################################################################################################################################################################################
-# Currency Exchange Application - frontend
+# To-Do List Application - frontend
 
-This is a React.js application that provides a user interface for currency conversion. It uses Material-UI for styling and Axios for making HTTP requests to the backend API.
+This is a React.js application that provides a user interface for To-Do List Application. It uses Material-UI for styling,State Management,  in React state and Axios for making HTTP requests to the backend API.
 
 ## Table of Contents
 
@@ -67,7 +66,7 @@ This is a React.js application that provides a user interface for currency conve
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Build for Production](#build-for-production)
-- [Environment Variables](#environment-variables)
+- [Features](#Features)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -83,14 +82,14 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
     ```bash
-    https://github.com/lakmalasela/currency_exchange.git
+     https://github.com/lakmalasela/Todo-app.git
     cd your-repo-name
     ```
 
 2. Install the dependencies:
 
     ```bash
-    npm install --force
+  npm install or npm install --force
     ```
 
 ## Running the Application
@@ -101,16 +100,16 @@ Make sure you have the following installed on your machine:
     npm start
     ```
 
-    This will start the development server on `http://localhost:3000` and open the application in your default web browser.
+    This will start the development server on `http://localhost:3000/login` and open the application in your default web browser.
 
 
-## Environment Variables
-
-Create a `.env` file in the root directory of the project with the following variables:
-
-REACT_APP_SERVER_API_URL = http://localhost:4000
-
-REACT_APP_EXCHANGE_RATE_API = https://open.er-api.com/v6/latest
+## Features
+Register the new user
+Login for relevant user
+Add new tasks
+Update existing tasks
+View tasks with descriptions
+Pagination for task listing
 
 
 
