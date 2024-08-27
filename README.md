@@ -88,8 +88,8 @@ Make sure you have the following installed on your machine:
 
 2. Install the dependencies:
 
-    ```bash
-  npm install or npm install --force
+  ```bash
+    npm install or npm install --force
     ```
 
 ## Running the Application
