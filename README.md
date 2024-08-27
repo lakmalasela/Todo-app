@@ -105,7 +105,7 @@ Make sure you have the following installed on your machine:
 
 ## Features
 - Register a new user
-- Login for relevant users
+- Login for relevant user
 - Add new tasks
 - Update existing tasks
 - View tasks with descriptions
