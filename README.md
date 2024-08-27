@@ -26,7 +26,7 @@ Make sure you have the following installed on your machine:
 
     ```bash
     https://github.com/lakmalasela/Todo-app.git
-    cd your-repo-name
+    cd back-end
     ```
 
 2. Install the dependencies:
@@ -83,7 +83,7 @@ Make sure you have the following installed on your machine:
 
     ```bash
      https://github.com/lakmalasela/Todo-app.git
-    cd your-repo-name
+    cd front-end
     ```
 
 2. Install the dependencies:
@@ -104,13 +104,12 @@ Make sure you have the following installed on your machine:
 
 
 ## Features
-Register the new user
-Login for relevant user
-Add new tasks
-Update existing tasks
-View tasks with descriptions
-Pagination for task listing
-
+- Register a new user
+- Login for relevant users
+- Add new tasks
+- Update existing tasks
+- View tasks with descriptions
+- Pagination for task listing
 
 
 
